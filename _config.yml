@@ -30,9 +30,9 @@ defaults:
 
 # SITE CONFIGURATION
 baseurl: ''  #leave this alone
-url: "https://yoursite.github.io"   #change this to yours
-title: My name or organisation # site's title
-description: "A website with a blog" # used by search engines
+url: "https://eyescrollgithub.io"   #change this to yours
+title: Chris Jennings # site's title
+description: "A website with a blog and my Shakespeare Play" # used by search engines
 
 # SITE-SPECIFIC CONFIGURATION
 # Change these 2 images for your own site
@@ -47,7 +47,7 @@ gridlayout: false # change to true if you want grd layout
 
 # Header and footer text
 # Change this text to yourown
-header_text: My blog and my web site
+header_text: Brookes Blog and Dream
 
 # find an image for your own home page and put it into the images folder
 header_feature_image: /uploads/pages.jpg
@@ -56,7 +56,7 @@ twitter_username:   #change to your own twitter account
 lang: en_gb
 # change the following to your name or site name
 footer_text:
-    "Copyright 2020 My name"
+    "Copyright 2020 Chris Jennings"
   # Icons
   # If you have any of these accounts add them in here
 rss: false  # Make sure you created a feed.xml with feed.xml layout
