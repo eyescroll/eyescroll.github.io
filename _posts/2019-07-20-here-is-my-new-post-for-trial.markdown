@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Here is a blog post sample
-date: 2020-01-30 16:02
+date: 2020-01-30 18:54:34 UTC
 published: true
 header_feature_image: _uploads/water.jpg
 caption: "Wood Type"
