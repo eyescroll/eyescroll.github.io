@@ -2,7 +2,7 @@ backend:
   name: github
   repo: eyescroll/eyescroll.github.io # Path to your GitHub repository
   branch: master # Branch to update (master by default)
-  site_domain: eyescroll.github.io
+  site_domain: eyescroll.netifly.com
 
 show_preview_links: false
 publish_mode: editorial_workflow
