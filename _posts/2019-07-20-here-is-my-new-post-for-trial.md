@@ -3,7 +3,7 @@ layout: post
 title: Here is a blog post sample
 date: 2020-01-30 18:54:34 UTC
 published: true
-header_feature_image: _uploads/water.jpg
+header_feature_image: _uploads/type.jpg
 caption: "Wood Type"
 pinned:
 tags:
@@ -27,7 +27,7 @@ Of recommend residence education be on difficult repulsive offending. Judge view
 
 ## Here is a an image
 
-[![Wooden Type](/_uploads/type.jpg)](/_uploads/type.jpg)
+[![Wooden Type](/_uploads/books4screen.jpg)](/_uploads/books4screen.jpg)
 
 She who arrival end how fertile enabled. Brother she add yet see minuter natural smiling article painted. Themselves at dispatched interested insensible am be prosperous reasonably it. In either so spring wished. Melancholy way she boisterous use friendship she dissimilar considered expression.
 
