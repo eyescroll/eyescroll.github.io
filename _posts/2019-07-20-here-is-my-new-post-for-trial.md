@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Here is a blog post sample
-date: '2020-01-30 18:54:34 UTC'
+date: 2020-01-30 18:54:34 UTC
 header_feature_image: /_uploads/867FAB82-62D7-4C53-8EDC-5114095CF8AA.jpeg
 caption: Cobbles
 ---
@@ -21,7 +21,7 @@ Of recommend residence education be on difficult repulsive offending. Judge view
 
 ## Here is a an image
 
-[![Wooden Type](/_uploads/books4screen.jpg)](/_uploads/books4screen.jpg)
+[![Wooden Type](/uploads/books4screen.jpg)](/uploads/books4screen.jpg)
 
 She who arrival end how fertile enabled. Brother she add yet see minuter natural smiling article painted. Themselves at dispatched interested insensible am be prosperous reasonably it. In either so spring wished. Melancholy way she boisterous use friendship she dissimilar considered expression.
 
