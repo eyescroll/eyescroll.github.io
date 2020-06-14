@@ -2,14 +2,16 @@ backend:
   name: github
   repo: eyescroll/eyescroll.github.io # Path to your GitHub repository
   branch: master # Branch to update (master by default)
-  site_domain: eyescroll.netlify.com
+  site_domain: eyescroll.netlify.app
 
 show_preview_links: false
 publish_mode: editorial_workflow
+display_url: https://eyescroll.netlify.app
+logo_url: https://eyescroll.netlify.app/assets/img/face.jpg
 
 # This line should *not* be indented
-media_folder: "_uploads" # Media files will be stored in the repo under /uploads
-public_folder: "/_uploads"
+media_folder: "uploads" # Media files will be stored in the repo under /uploads
+public_folder: "/uploads"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
@@ -18,8 +20,8 @@ collections:
     folder: "_posts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    media_folder: "/_uploads"
-    public_folder: "/_uploads"
+    media_folder: "/uploads"
+    public_folder: "/uploads"
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
@@ -37,8 +39,8 @@ collections:
     folder: "pages/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    media_folder: "_uploads"
-    public_folder: "/_uploads"
+    media_folder: "uploads"
+    public_folder: "/uploads"
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter

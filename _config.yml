@@ -3,9 +3,6 @@ collections:
   posts:
     title: Posts
     output: true
-  uploads:
-    title: Uploads
-    output: true
 defaults:
 - scope:
     path: ''
@@ -21,18 +18,12 @@ defaults:
     layout: page
     header_feature_image:
     caption:
-- scope:
-    path: ''
-    type: recipe
-  values:
-    layout: recipe
-    order:
 
 # SITE CONFIGURATION
 baseurl: ''  #leave this alone
-url: "https://eyescroll.github.io"   #change this to yours
+url: "https://eyescroll.netlify.app"   #change this to yours
 title: Chris Jennings # site's title
-description: "A website with a blog and my Shakespeare Play" # used by search engines
+description: "A website with a blog" # used by search engines
 
 # SITE-SPECIFIC CONFIGURATION
 # Change these 2 images for your own site
