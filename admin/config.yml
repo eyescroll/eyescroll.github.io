@@ -50,3 +50,35 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "data" # Used in routes, e.g., /admin/collections/blog
+    label: "Settings" # Used in the UI
+    files:
+      - label: "Settings for your Web site"
+        name: "settings"
+        file: "_data/settings.yml"
+        fields:
+          - label: "Branding"
+            name: "general"
+            widget: "object"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "string"
+              - label: "Text in the Banner"
+                name: "header_text"
+                widget: "string"
+              - label: "Text in the Footer"
+                name: "footer_text"
+                widget: "string"
+              - label: "Home Page Image"
+                name: "header_feature_image"
+                widget: "image"
+                required: false
+              - label: "Grid Layout"
+                name: "gridlayout"
+                widget: "boolian"
+                default: false

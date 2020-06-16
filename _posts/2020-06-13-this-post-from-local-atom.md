@@ -11,4 +11,4 @@ tags:    # use [tag1,tag2]
 
 This post was added with Atom
 
-[![Lots of logos](/_uploads/logos.jpg)](/_uploads/logos.jpg)
+[![Lots of logos](/uploads/logos.jpg)](/uploads/logos.jpg)

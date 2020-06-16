@@ -22,44 +22,22 @@ defaults:
 # SITE CONFIGURATION
 baseurl: ''  #leave this alone
 url: "https://eyescroll.netlify.app"   #change this to yours
-title: Chris Jennings # site's title
-description: "A website with a blog" # used by search engines
 
-# SITE-SPECIFIC CONFIGURATION
-# Change these 2 images for your own site
-
-avatar: assets/img/face.jpg
-favicon: assets/favicon.ico
-
-# Your blog on the home page can be arranged as a grid
-
-gridlayout: false # change to true if you want grd layout
-
-
-# Header and footer text
-# Change this text to yourown
-header_text: Brookes Dream Blog
-
-# find an image for your own home page and put it into the images folder
-header_feature_image: /uploads/water.jpg
-
-twitter_username:   #change to your own twitter account
+# twitter_username: pageboy  #change to your own twitter account
 lang: en_gb
-# change the following to your name or site name
-footer_text:
-    "Copyright 2020 Chris Jennings"
+
   # Icons
   # If you have any of these accounts add them in here
 rss: false  # Make sure you created a feed.xml with feed.xml layout
 email_address: # Full email address, e.g. "sam@example.com"
 facebook:
-flickr:
+flickr: chrisjennings
 google_plus:
-instagram:
+instagram: pagebuoy
 linkedin:  # Full URL
 pinterest:
 soundcloud:
-twitter: # "twitter username"
+twitter: pageboy
 youtube:
 
 # Sharing options

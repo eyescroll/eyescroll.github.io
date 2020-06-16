@@ -5,26 +5,26 @@
 {%- if page.header_feature_image != null -%}
 <meta property="og:image" content="{{site.url}}{{page.header_feature_image}}">
 {%- else -%}
-<meta property="og:image" content="{{site.url}}{{site.header_feature_image}}">
+<meta property="og:image" content="{{site.url}}{{site.data.settings.general.header_feature_image}}">
 {%- endif -%}
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{{site.url}}{{page.url}}">
-<meta name="twitter:site" content="@{{site.twitter_username}}">
+<meta name="twitter:site" content="@{{site.twitter}}">
 {%- if page.title != null -%}
 <meta name="twitter:title" content="{{page.title}}">
 {%- else -%}
-<meta name="twitter:title" content="{{site.title}}">
+<meta name="twitter:title" content="{{site.data.settings.general.title}}">
 {%- endif -%}
 {%- if page.excerpt != null -%}
 <meta name="twitter:description" content="{{page.excerpt | strip_html}}">
 {%- else -%}
-<meta name="twitter:description" content="{{site.description}}">
+<meta name="twitter:description" content="{{site.data.settings.general.description}}">
 {%- endif -%}
 {%- if page.header_feature_image != null -%}
 <meta name="twitter:image" content="{{site.url}}{{page.header_feature_image}}">
 {%- else -%}
-<meta name="twitter:image" content="{{site.url}}{{site.header_feature_image}}">
+<meta name="twitter:image" content="{{site.url}}{{site.data.settings.general.header_feature_image}}">
 {%- endif -%}
 <meta name="twitter:creator" content="@{{site.twitter_username}}">
