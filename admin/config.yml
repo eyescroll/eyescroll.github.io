@@ -4,6 +4,7 @@ backend:
   branch: master # Branch to update (master by default)
   site_domain: eyescroll.netlify.app
 
+publish_mode: editorial_workflow
 show_preview_links: false
 display_url: https://eyescroll.netlify.app
 logo_url: https://eyescroll.netlify.app/uploads/face.jpg
@@ -35,7 +36,6 @@ collections:
 
 
   - name: "pages"
-    publish_mode: editorial_workflow
     label: "Pages" # Used in the UI
     label_singular: "Page"
     folder: "pages/" # The path to the folder where the documents are stored
