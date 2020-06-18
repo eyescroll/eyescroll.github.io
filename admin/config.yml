@@ -75,9 +75,11 @@ collections:
               - label: "Description"
                 name: "description"
                 widget: "string"
+                required: false
               - label: "Text in the Banner"
                 name: "header_text"
                 widget: "string"
+                required: false
               - label: "Text in the Footer"
                 name: "footer_text"
                 widget: "string"
@@ -103,22 +105,29 @@ collections:
               - label: "Twitter"
                 name: "twitter"
                 widget: "string"
+                required: false
               - label: "Instagram"
                 name: "instagram"
                 widget: "string"
+                required: false
               - label: "Facebook"
                 name: "facebook"
                 widget: "string"
+                required: false
               - label: "Disqus"
                 name: "disqus_shortname"
                 widget: "string"
+                required: false
                 hint: "Once you have a disqus account you can put the short name in here."
               - label: "Flickr"
                 name: "flickr"
                 widget: "string"
+                required: false
               - label: "Soundcloud"
                 name: "soundcloud"
                 widget: "string"
+                required: false
               - label: "Pinterest"
                 name: "pinterest"
                 widget: "string"
+                required: false

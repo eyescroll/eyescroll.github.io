@@ -101,5 +101,7 @@ flex: 0 0 auto;
 }
 
 .css-jvmt7c-ControlHint {
-  color:red;
+  background-color: #56c3e6
+  color:#135daa;
+  padding:3px;
 }
