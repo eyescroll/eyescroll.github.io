@@ -80,3 +80,4 @@ permalink: pretty
 highlighter: rouge
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 exclude: [".jekyll-cache", "Gemfile", "README.md"]
+github: [metadata]
