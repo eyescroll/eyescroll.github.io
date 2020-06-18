@@ -5,7 +5,6 @@ backend:
   site_domain: eyescroll.netlify.app
 
 show_preview_links: false
-# publish_mode: editorial_workflow
 display_url: https://eyescroll.netlify.app
 logo_url: https://eyescroll.netlify.app/uploads/face.jpg
 
@@ -28,13 +27,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Published", name: "published", widget: "boolean", required: false}
       - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
       - {label: "Caption", name: "caption", widget: "string", required: false}
       - {label: "Comments", name: "comments", widget: "boolean", required: false, hint: "If you setup your Disqus account then turn this on"}
       - {label: "Body", name: "body", widget: "markdown"}
 
 
-  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+  - name: "pages"
+    publish_mode: editorial_workflow
     label: "Pages" # Used in the UI
     label_singular: "Page"
     folder: "pages/" # The path to the folder where the documents are stored
@@ -53,6 +54,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "data"
+    publish_mode: normal
     label: "Settings"
     editor:
       preview: false
