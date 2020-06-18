@@ -5,9 +5,9 @@ backend:
   site_domain: eyescroll.netlify.app
 
 show_preview_links: false
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 display_url: https://eyescroll.netlify.app
-logo_url: https://eyescroll.netlify.app/assets/img/face.jpg
+logo_url: https://eyescroll.netlify.app/uploads/face.jpg
 
 # This line should *not* be indented
 media_folder: "uploads" # Media files will be stored in the repo under /uploads
@@ -59,14 +59,14 @@ collections:
     files:
       - label: "Settings for your Web site"
         name: "settings"
-        description: "Unfold these groups and set configure the settings for your site"
+        description: "Unfold these groups and configure the settings for your site"
         file: "_data/settings.yml"
         fields:
           - label: "General Settings"
             name: "general"
             widget: "object"
             hint: "These are essential settings for your site"
-            collapsed: true
+            collapsed: false
             fields:
               - label: "Title"
                 name: "title"
