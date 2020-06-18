@@ -7,3 +7,12 @@ general:
   gridlayout: false
   logo: /uploads/face.jpg
   favicon: /uploads/favicon.ico
+
+social:
+  twitter: pageboy
+  instagram: pagebuoy
+  facebook:
+  disqus_shortname:
+  flickr:
+  soundcloud:
+  pinterest:

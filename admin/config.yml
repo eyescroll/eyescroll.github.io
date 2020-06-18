@@ -30,6 +30,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
       - {label: "Caption", name: "caption", widget: "string", required: false}
+      - {label: "Comments", name: "comments", widget: "boolean", required: false, hint: "If you setup your Disqus account then turn this on"}
       - {label: "Body", name: "body", widget: "markdown"}
 
 
@@ -51,20 +52,26 @@ collections:
       - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "data" # Used in routes, e.g., /admin/collections/blog
-    label: "Settings" # Used in the UI
+  - name: "data"
+    label: "Settings"
+    editor:
+      preview: false
     files:
       - label: "Settings for your Web site"
         name: "settings"
+        description: "Unfold these groups and set configure the settings for your site"
         file: "_data/settings.yml"
         fields:
-          - label: "Branding"
+          - label: "General Settings"
             name: "general"
             widget: "object"
+            hint: "These are essential settings for your site"
+            collapsed: true
             fields:
               - label: "Title"
                 name: "title"
                 widget: "string"
+                required: true
               - label: "Description"
                 name: "description"
                 widget: "string"
@@ -74,11 +81,44 @@ collections:
               - label: "Text in the Footer"
                 name: "footer_text"
                 widget: "string"
+                required: true
+                hint: "You can put the copyright info in here"
               - label: "Home Page Image"
                 name: "header_feature_image"
                 widget: "image"
+                allow_multiple: false
+                hint: "This image will show on the home page. It needs to be a minimum of 900 pixels wide."
                 required: false
               - label: "Grid Layout"
                 name: "gridlayout"
-                widget: "boolian"
-                default: false
+                widget: "boolean"
+                required: false
+                hint: "You can choose to show the posts on the home page in a grid rather than just lined up vertically"
+          - label: "Your Social Media Accounts"
+            name: "social"
+            widget: "object"
+            hint: "Put any social media accounts in here so that you can show the icons on your web site"
+            collapsed: true
+            fields:
+              - label: "Twitter"
+                name: "twitter"
+                widget: "string"
+              - label: "Instagram"
+                name: "instagram"
+                widget: "string"
+              - label: "Facebook"
+                name: "facebook"
+                widget: "string"
+              - label: "Disqus"
+                name: "disqus_shortname"
+                widget: "string"
+                hint: "Once you have a disqus account you can put the short name in here."
+              - label: "Flickr"
+                name: "flickr"
+                widget: "string"
+              - label: "Soundcloud"
+                name: "soundcloud"
+                widget: "string"
+              - label: "Pinterest"
+                name: "pinterest"
+                widget: "string"
