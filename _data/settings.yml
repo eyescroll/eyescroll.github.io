@@ -8,12 +8,12 @@ general:
   logo: /uploads/face.jpg
   favicon: /uploads/favicon.ico
 social:
-  email_address:
-  twitter: pageboy
-  instagram: pagebuoy
-  facebook: null
-  disqus_shortname: null
-  flickr: null
+  youtube: null
   soundcloud: null
+  facebook: null
+  flickr: null
+  disqus_shortname: null
+  email_address: chrisjennings@me.com
+  instagram: pagebuoy
+  twitter: pageboy
   pinterest: null
-  youtube:
