@@ -3,7 +3,7 @@ general:
   description: A website with a blog
   header_text: Brookes Dream Blog
   footer_text: Copyright 2020 Chris Jennings
-  header_feature_image: /uploads/867FAB82-62D7-4C53-8EDC-5114095CF8AA.jpeg
+  header_feature_image: /uploads/water.jpg
   gridlayout: false
   logo: /uploads/face.jpg
   favicon: /uploads/favicon.ico
