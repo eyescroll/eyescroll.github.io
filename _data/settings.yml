@@ -8,6 +8,7 @@ general:
   logo: /uploads/face.jpg
   favicon: /uploads/favicon.ico
 social:
+  email_address:
   twitter: pageboy
   instagram: pagebuoy
   facebook: null
@@ -15,3 +16,4 @@ social:
   flickr: null
   soundcloud: null
   pinterest: null
+  youtube:

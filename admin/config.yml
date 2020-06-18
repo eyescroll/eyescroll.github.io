@@ -107,6 +107,11 @@ collections:
               - label: "Twitter"
                 name: "twitter"
                 widget: "string"
+                hint: "Do not include the @ sign"
+              - label: "Email Adress"
+                name: "email_address"
+                widget: "string"
+                pattern: ['@', 'Must be a valid email address']
                 required: false
               - label: "Instagram"
                 name: "instagram"
@@ -133,3 +138,8 @@ collections:
                 name: "pinterest"
                 widget: "string"
                 required: false
+              - label: "YouTube"
+                name: "youtube"
+                widget: "string"
+                required: false
+                hint: "Put your YouTube channel here"  
