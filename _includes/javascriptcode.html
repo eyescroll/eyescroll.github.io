@@ -26,3 +26,19 @@ $(".post-content img").each(function() {
     }
 });
 </script>
+
+<!-- now follows the javascript to show that a post can be edited -->
+
+<script>
+  if (localStorage.getItem("netlify-cms-user") != '') {
+  var theuser = JSON.parse(localStorage.getItem("netlify-cms-user")).name;
+  $("#user").html("<a class='editlink' title='With permission through GitHub' href='/admin/#/edit{{ page.url }}'>" + theuser + " can edit this Post" + "</a>");
+}
+</script>
+<script>
+jQuery(document).ready(function($) {
+  $("a.word-export").click(function(event) {
+    $("#page-content").wordExport();
+  });
+});
+</script>

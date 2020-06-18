@@ -1,3 +1,5 @@
+- name: Editor
+  siteurl: /admin/
 - name:  # here is the name of your other site
   siteurl:
 - name:
