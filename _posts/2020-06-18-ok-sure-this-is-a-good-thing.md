@@ -8,3 +8,5 @@ caption: Books are great
 comments: true
 ---
 What happens if you don't have disqus set up
+
+![](/uploads/type.jpg)
