@@ -1,18 +1,17 @@
 general:
-  title: Chris Jennings # site's title
-  description: "A website with a blog" # used by search engines
-  header_text: "Brookes Dream Blog"
-  footer_text: "Copyright 2020 Chris Jennings"
-  header_feature_image: /uploads/water.jpg
+  title: Chris Jennings
+  description: A website with a blog
+  header_text: Brookes Dream Blog
+  footer_text: Copyright 2020 Chris Jennings
+  header_feature_image: /uploads/books4screen.jpg
   gridlayout: false
   logo: /uploads/face.jpg
   favicon: /uploads/favicon.ico
-
 social:
   twitter: pageboy
   instagram: pagebuoy
-  facebook:
-  disqus_shortname:
-  flickr:
-  soundcloud:
-  pinterest:
+  facebook: null
+  disqus_shortname: null
+  flickr: null
+  soundcloud: null
+  pinterest: null
