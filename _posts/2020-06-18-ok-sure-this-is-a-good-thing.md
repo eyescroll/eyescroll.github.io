@@ -9,7 +9,8 @@ comments: true
 ---
 What happens if you don't have disqus set up
 
-<div class="video-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/9HB55nOYc4E?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+
+youtube vKOrWXtzFQk
 
 ![](/uploads/type.jpg)
