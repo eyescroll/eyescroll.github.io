@@ -163,10 +163,6 @@ collections:
                 name: "twitter"
                 widget: "boolean"
                 required: false
-              - label: "Email Adress"
-                name: "email_address"
-                widget: "boolean"
-                required: false
               - label: "Instagram"
                 name: "instagram"
                 widget: "boolean"
