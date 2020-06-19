@@ -108,11 +108,6 @@ collections:
                 name: "twitter"
                 widget: "string"
                 hint: "Do not include the @ sign"
-              - label: "Email Adress"
-                name: "email_address"
-                widget: "string"
-                pattern: ['@', 'Must be a valid email address']
-                required: false
               - label: "Instagram"
                 name: "instagram"
                 widget: "string"
@@ -142,4 +137,41 @@ collections:
                 name: "youtube"
                 widget: "string"
                 required: false
-                hint: "Put your YouTube channel here"  
+                hint: "Put your YouTube channel here"
+              - label: "Tumblr"
+                name: "tumblr"
+                widget: "string"
+                required: false
+                hint: "If you have Tumblr put it here"
+              - label: "LinkedIn"
+                name: "linkedin"
+                widget: "string"
+                required: false
+                hint: "If you have a LinkedIn network put it here"
+              - label: "Email Adress"
+                name: "email_address"
+                widget: "string"
+                pattern: ['@', 'Must be a valid email address']
+                required: false
+          - label: "Provide Share Buttons"
+            name: "share_buttons"
+            widget: "object"
+            hint: "Switch on these Social media buttons so people can share your posts"
+            collapsed: true
+            fields:
+              - label: "Twitter"
+                name: "twitter"
+                widget: "boolean"
+                required: false
+              - label: "Email Adress"
+                name: "email_address"
+                widget: "boolean"
+                required: false
+              - label: "Instagram"
+                name: "instagram"
+                widget: "boolean"
+                required: false
+              - label: "Facebook"
+                name: "facebook"
+                widget: "boolean"
+                required: false

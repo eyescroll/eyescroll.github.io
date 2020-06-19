@@ -1,4 +1,4 @@
-{%- if site.rss -%}
+{%- if site.data.settings.social.rss -%}
 <li>
 	<a href="{{ "feed.xml" | absolute_url }}" title="{{ site.str_rss_follow }}">
 		<span class="fa-stack fa-lg">
@@ -9,9 +9,9 @@
 </li>
 {%- endif -%}
 
-{%- if site.email_address -%}
+{%- if site.data.settings.social.email_address -%}
 <li>
-	<a href="mailto:{{ site.email_address }}" title="{{ site.str_email }}">
+	<a href="mailto:{{ site.data.settings.social.email_address }}" title="{{ site.str_email }}">
 		<span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -20,20 +20,9 @@
 </li>
 {%- endif -%}
 
-{%- if site.behance -%}
+{%- if site.data.settings.social.facebook -%}
 <li>
-	<a href="https://www.behance.net/{{ site.behance }}" title="{{ site.str_follow_on }} Behance">
-		<span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-behance fa-stack-1x fa-inverse"></i>
-        </span>
-	</a>
-</li>
-{%- endif -%}
-
-{%- if site.facebook -%}
-<li>
-	<a href="https://www.facebook.com/{{ site.facebook }}" title="{{ site.str_follow_on }} Facebook">
+	<a href="https://www.facebook.com/{{ site.data.settings.social.facebook }}" title="{{ site.str_follow_on }} Facebook">
 		<span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -42,9 +31,9 @@
 </li>
 {%- endif -%}
 
-{%- if site.flickr -%}
+{%- if site.data.settings.social.flickr -%}
 <li>
-	<a href="https://www.flickr.com/photos/{{ site.flickr }}" title="{{ site.str_follow_on }} Flickr">
+	<a href="https://www.flickr.com/photos/{{ site.data.settings.social.flickr }}" title="{{ site.str_follow_on }} Flickr">
 		<span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
@@ -53,20 +42,9 @@
 </li>
 {%- endif -%}
 
-{%- if site.google_plus -%}
+{%- if site.data.settings.social.instagram -%}
 <li>
-	<a href="https://plus.google.com/{{ site.google_plus }}" title="{{ site.str_follow_on }} Google+">
-		<span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-        </span>
-	</a>
-</li>
-{%- endif -%}
-
-{%- if site.instagram -%}
-<li>
-	<a href="https://instagram.com/{{ site.instagram }}" title="{{ site.str_follow_on }} Instagram">
+	<a href="https://instagram.com/{{ site.data.settings.social.instagram }}" title="{{ site.str_follow_on }} Instagram">
 		<span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
@@ -75,9 +53,9 @@
 </li>
 {%- endif -%}
 
-{%- if site.linkedin -%}
+{%- if site.data.settings.social.linkedin -%}
 <li>
-	<a href="{{ site.linkedin }}" title="{{ site.str_follow_on }} LinkedIn">
+	<a href="{{ site.data.settings.social.linkedin }}" title="{{ site.str_follow_on }} LinkedIn">
 		<span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -86,9 +64,9 @@
 </li>
 {%- endif -%}
 
-{%- if site.pinterest -%}
+{%- if site.data.settings.social.pinterest -%}
 <li>
-	<a href="https://www.pinterest.com/{{ site.pinterest }}" title="{{ site.str_follow_on }} Pinterest">
+	<a href="https://www.pinterest.com/{{ site.data.settings.social.pinterest }}" title="{{ site.str_follow_on }} Pinterest">
 		<span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
@@ -97,20 +75,9 @@
 </li>
 {%- endif -%}
 
-{%- if site.reddit -%}
+{%- if site.data.settings.social.soundcloud -%}
 <li>
-	<a href="https://www.reddit.com/user/{{ site.reddit }}" title="{{ site.str_follow_on }} Reddit">
-		<span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-reddit fa-stack-1x fa-inverse"></i>
-        </span>
-	</a>
-</li>
-{%- endif -%}
-
-{%- if site.soundcloud -%}
-<li>
-	<a href="https://soundcloud.com/{{ site.soundcloud }}" title="{{ site.str_follow_on }} SoundCloud">
+	<a href="https://soundcloud.com/{{ site.data.settings.social.soundcloud }}" title="{{ site.str_follow_on }} SoundCloud">
 		<span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
@@ -119,9 +86,9 @@
 </li>
 {%- endif -%}
 
-{%- if site.tumblr -%}
+{%- if site.data.settings.social.tumblr -%}
 <li>
-	<a href="https://{{ site.tumblr }}.tumblr.com/" title="{{ site.str_follow_on }} Tumblr">
+	<a href="https://{{ site.data.settings.social.tumblr }}.tumblr.com/" title="{{ site.str_follow_on }} Tumblr">
 		<span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-tumblr fa-stack-1x fa-inverse"></i>
@@ -130,9 +97,9 @@
 </li>
 {%- endif -%}
 
-{%- if site.twitter -%}
+{%- if site.data.settings.social.twitter -%}
 <li>
-	<a href="https://twitter.com/{{ site.twitter }}" title="{{ site.str_follow_on }} Twitter" class="type">
+	<a href="https://twitter.com/{{ site.data.settings.social.twitter }}" title="{{ site.str_follow_on }} Twitter" class="type">
         <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -141,31 +108,9 @@
 </li>
 {%- endif -%}
 
-{%- if site.vimeo -%}
+{%- if site.data.settings.social.youtube -%}
 <li>
-	<a href="https://vimeo.com/{{ site.vimeo }}" title="{{ site.str_follow_on }} Vimeo" class="type">
-        <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-vimeo fa-stack-1x fa-inverse"></i>
-        </span>
-	</a>
-</li>
-{%- endif -%}
-
-{%- if site.wordpress -%}
-<li>
-	<a href="https://{{ site.wordpress }}.wordpress.com/" title="{{ site.str_follow_on }} WordPress">
-		<span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-wordpress fa-stack-1x fa-inverse"></i>
-        </span>
-	</a>
-</li>
-{%- endif -%}
-
-{%- if site.youtube -%}
-<li>
-	<a href="https://www.youtube.com/user/{{ site.youtube }}" title="{{ site.str_follow_on }} YouTube">
+	<a href="https://www.youtube.com/user/{{ site.data.settings.social.youtube }}" title="{{ site.str_follow_on }} YouTube">
 		<span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
