@@ -1,15 +1,13 @@
 ---
 layout: post
 title: Here is a blog post sample
-date: 2020-01-30 18:54:34 UTC
+date: 2020-06-19T09:32:54.791Z
 header_feature_image: /uploads/867FAB82-62D7-4C53-8EDC-5114095CF8AA.jpeg
 caption: Cobbles
 ---
-
 This is just a sample post that you should delete or set to `published:false`. This first paragraph will appear on the home page as a preview of the post. The rest below this paragraph will appear on the blog post page. The `header_feature_image` is optional and you should enter the path to it in the metadata above.
 
-> Here follows some more placeholder text. You can see the `markdown` when viewing this post in Atom. This is a _blockquote_.
-
+> Here follows some more placeholder text. You can see the `markdown` when viewing this post in Atom. This is a *blockquote*.
 
 By impossible of in difficulty discovered celebrated ye. Justice joy manners boy met resolve produce. Bed head loud next plan rent had easy add him. To open draw dear be by side like.
 
@@ -21,7 +19,7 @@ Of recommend residence education be on difficult repulsive offending. Judge view
 
 ## Here is a an image
 
-[![Wooden Type](/uploads/books4screen.jpg)](/uploads/books4screen.jpg)
+![Wooden Type](/uploads/log.jpg)
 
 She who arrival end how fertile enabled. Brother she add yet see minuter natural smiling article painted. Themselves at dispatched interested insensible am be prosperous reasonably it. In either so spring wished. Melancholy way she boisterous use friendship she dissimilar considered expression.
 
@@ -42,3 +40,7 @@ There is a lot more that you can learn about `markdown` but by using **Atom** th
 Ten the hastened steepest feelings pleasant few surprise property. Led raising expense yet demesne weather musical. Me mr what park next busy ever. Elinor her his secure far twenty eat object. Late any far saw size want man. Which way you wrong add shall one.
 
  No betrayed pleasure possible jointure we in throwing. And can event rapid any shall woman green. Smiling nothing affixed he carried it clothes calling he no. Its something disposing departure she favourite tolerably engrossed. Excellence put unaffected reasonable mrs introduced conviction she. Nay particular delightful but unpleasant for uncommonly who.
+
+
+
+youtube dxQtlNQlwo0
