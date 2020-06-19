@@ -4,12 +4,13 @@ backend:
   branch: master # Branch to update (master by default)
   site_domain: eyescroll.netlify.app
 
-publish_mode: editorial_workflow
-show_preview_links: false
+# publish_mode: editorial_workflow
+show_preview_links: true
 display_url: https://eyescroll.netlify.app
 logo_url: https://eyescroll.netlify.app/uploads/face.jpg
 
-# This line should *not* be indented
+# Do NOT edit below this line
+
 media_folder: "uploads" # Media files will be stored in the repo under /uploads
 public_folder: "/uploads"
 
@@ -56,6 +57,8 @@ collections:
   - name: "data"
     publish_mode: normal
     label: "Settings"
+    create: false
+    delete: false
     editor:
       preview: false
     files:
