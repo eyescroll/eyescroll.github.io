@@ -1252,9 +1252,9 @@ code.highlighter-rouge {
 
 
 .editlink {
-  font-size: .5em;
+  font-size: .7em;
   color: white;
-  background: #a76cb4;
+  background: #71357e;
   padding:3px;
   margin-left: 30px;
   position: relative;
@@ -1275,4 +1275,23 @@ a.word {
   background: #d15e2d;
   padding:3px;
   width:50%;
+}
+
+
+.video-box {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 12px;
+
+}
+
+.video-box iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
