@@ -18,9 +18,10 @@ collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
     label_singular: "Post"
+    sort: "date:desc" # Default is title:asc
     folder: "_posts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     media_folder: "/uploads"
     public_folder: "/uploads"
     editor:
@@ -40,8 +41,9 @@ collections:
     label: "Pages" # Used in the UI
     label_singular: "Page"
     folder: "pages/" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
-    slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     media_folder: "uploads"
     public_folder: "/uploads"
     editor:
