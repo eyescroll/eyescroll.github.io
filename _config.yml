@@ -29,25 +29,6 @@ lang: en_gb
   # Icons
   # If you have any of these accounts add them in here
 rss: false  # Make sure you created a feed.xml with feed.xml layout
-email_address: # Full email address, e.g. "sam@example.com"
-facebook:
-flickr: chrisjennings
-google_plus:
-instagram: pagebuoy
-linkedin:  # Full URL
-pinterest:
-soundcloud:
-twitter: pageboy
-youtube:
-
-# Sharing options
-share_buttons:
-  facebook: true
-  twitter: true
-  tumblr:
-  pinterest:
-  linkedin:
-  email: true
 
 # Scripts / Features
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
@@ -76,7 +57,7 @@ paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
-permalink: pretty
+permalink: /posts/:title/
 highlighter: rouge
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 exclude: [".jekyll-cache", "Gemfile", "README.md"]
