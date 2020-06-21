@@ -3,7 +3,7 @@ layout: default
 ---
 <article {% if page.header_feature_image %}class="feature-image"{% endif %}>
   <header id="main">
-    <p><span id="user"></span></p>
+    <!-- <p><span id="user"></span></p> -->
       <h1 id="{{ page.title | escape | url_encode }}" class="title">{{ page.title }}</h1>
         {% include post_info.html post=page %}
   </header>
@@ -20,7 +20,7 @@ layout: default
 </article>
 
 <!-- Disqus -->
-{% if site.disqus_shortname %}
+{% if site.data.settings.social.disqus_shortname %}
 <div class="comments">
   {% include disqus.html %}
 </div>

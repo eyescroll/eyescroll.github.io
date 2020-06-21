@@ -11,7 +11,7 @@
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{{site.url}}{{page.url}}">
-<meta name="twitter:site" content="@{{site.twitter}}">
+<meta name="twitter:site" content="@{{site.data.settings.social.twitter}}">
 {%- if page.title != null -%}
 <meta name="twitter:title" content="{{page.title}}">
 {%- else -%}
@@ -27,4 +27,4 @@
 {%- else -%}
 <meta name="twitter:image" content="{{site.url}}{{site.data.settings.general.header_feature_image}}">
 {%- endif -%}
-<meta name="twitter:creator" content="@{{site.twitter_username}}">
+<meta name="twitter:creator" content="@{{site.data.settings.social.twitter}}">

@@ -1285,6 +1285,7 @@ a.word {
 	height: 0;
 	overflow: hidden;
 	margin-bottom: 12px;
+  width:100%;
 }
 
 .video-box iframe {
