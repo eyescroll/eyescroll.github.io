@@ -32,7 +32,7 @@
 			{%- endfor -%}
         {%- assign name_page = "" -%}
         {%- for page in site.pages -%}
-            {%- unless page.title == null or page.hide -%}
+            {%- unless page.title == null or page.show == false -%}
             <li class="separator"> | </li>
             <li>
                 <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">

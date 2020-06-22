@@ -4,7 +4,7 @@ backend:
   branch: master # Branch to update (master by default)
   site_domain: eyescroll.netlify.app
 
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 show_preview_links: true
 display_url: https://eyescroll.netlify.app
 logo_url: https://eyescroll.netlify.app/uploads/face.jpg
@@ -18,14 +18,16 @@ collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
     label_singular: "Post"
-    sort: "date:desc" # Default is title:asc
     folder: "_posts/" # The path to the folder where the documents are stored
+    description: "These are your existing blog posts. Click -New Post- to create a new post."
+    publish: true
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     media_folder: "/uploads"
     public_folder: "/uploads"
-    editor:
-      preview: true
+    # editor:
+    #   preview: true
+    summary: "{{title}} - {{day}}/{{month}}/{{year}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
@@ -40,9 +42,10 @@ collections:
   - name: "pages"
     label: "Pages" # Used in the UI
     label_singular: "Page"
+    description: "These are seperate pages from the blog. Not date ordered, but simply available from the menu if you turn that setting on."
     folder: "pages/" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
+    delete: false
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     media_folder: "uploads"
     public_folder: "/uploads"
@@ -53,12 +56,14 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Show on the menu?", name: "show", widget: "boolean", default: false, hint: "If this is switch on, the link will show on the menubar to the right."}
       - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "data"
     publish_mode: normal
     label: "Settings"
+    description: "These are the settings for the site. This includes the name and description of your blog and your social media accounts."
     create: false
     delete: false
     editor:
