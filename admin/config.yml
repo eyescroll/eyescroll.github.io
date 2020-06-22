@@ -23,7 +23,7 @@ collections:
       preview: false
     description: "These are your existing blog posts. Click -New Post- to create a new post."
     create: true # Allow users to create new documents in this collection
-    slug: "{{YYYY-MM-DD-title.md}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     media_folder: "/uploads"
     public_folder: "/uploads"
     summary: "{{title}} - {{day}}/{{month}}/{{year}}"
