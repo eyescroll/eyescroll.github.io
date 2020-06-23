@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Here is my new post and the date is there
-date: 2020-06-23T15:34:12.396Z
+date: 2020-06-23T12:34:12.391Z
 header_feature_image:
 caption:
 tags:    # use [tag1,tag2]
