@@ -2,7 +2,6 @@
 layout: post
 title: This is a new post through Atom
 date: 2020-06-23T11:25:11.396Z
-published: true
 header_feature_image:
 caption:
 pinned:
