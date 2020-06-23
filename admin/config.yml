@@ -27,7 +27,7 @@ collections:
     media_folder: "/uploads"
     public_folder: "/uploads"
     summary: "{{title}} - {{day}}/{{month}}/{{year}}"
-    preview_path: "{{year}}/{{month}}/{{day}}/{{slug}}"
+    preview_path: "{{slug}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
