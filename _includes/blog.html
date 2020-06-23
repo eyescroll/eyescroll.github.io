@@ -31,7 +31,7 @@
     {% endif %}
     {% endfor %}
 
-    {%- for post in paginator.posts | sort: "title" -%}
+    {%- for post in paginator.posts | sort: "date" -%}
     {%- unless post.pinned -%}
     <div class="post-teaser">
         {%- if post.header_feature_image -%}
@@ -59,7 +59,7 @@
           <div class="excerpt">
               {{ post.excerpt | strip_html | escape }}
           </div>
-  
+
     </div>
     {% endunless %}
     {% endfor %}
