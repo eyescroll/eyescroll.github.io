@@ -49,17 +49,15 @@ newPostFileName: "{year}-{month}-{day}-{slug}{extension}"
 # frontMatterCustomFields:
 #   author: "Your Name Here"
 # Front matter date format, determines the {date} in frontMatter
-frontMatterDate: "{year}-{month}-{day} {hour}:{minute}"
+frontMatterDate: "{year}-{month}-{day}T{hour}:{minute}Z"
 # Front matter template
 frontMatter: """
 ---
 layout: {layout}
 title: {title}
 date: {date}
-published: false
 header_feature_image:
 caption:
-pinned:
 tags:    # use [tag1,tag2]
 ---
 """
