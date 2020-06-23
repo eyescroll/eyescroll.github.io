@@ -9,6 +9,4 @@ Well here is is then.
 
 <div class="video-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/gHIKCoZmQII?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-
-
-![Tomatoes](/_uploads/tomatoes.jpg)
+![Tomatoes](/uploads/tomatoes.jpg)
