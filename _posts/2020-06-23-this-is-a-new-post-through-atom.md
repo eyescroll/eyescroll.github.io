@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This is a new post through Atom
-date: 2020-06-23 11:59
+date: 2020-06-23T11:396Z
 published: true
 header_feature_image:
 caption:
