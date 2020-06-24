@@ -35,10 +35,3 @@ $(".post-content img").each(function() {
   $("#user").html("<a class='editlink' title='With permission through GitHub' href='/admin/#/collections/posts/entries{{ page.path | remove: ".md" | remove: "_posts" }}'>" + theuser + " can edit this Post" + "</a>");
 }
 </script>
-<script>
-jQuery(document).ready(function($) {
-  $("a.word-export").click(function(event) {
-    $("#export-content").wordExport();
-  });
-});
-</script>

@@ -30,14 +30,16 @@ if (typeof jQuery !== "undefined" && typeof saveAs !== "undefined") {
                 var w = Math.min(img[i].width, options.maxWidth);
                 var h = img[i].height * (w / img[i].width);
                 // Create canvas for converting image to data URL
-                var canvas = document.createElement("CANVAS");
+                var canvasCode = '<canvas id="jQuery-Word-export_img_' + i + '" width="'+w+'" height="'+h+'">';
+                $(canvasCode).appendTo($(this));
+                var canvas = document.getElementById("jQuery-Word-export_img_" + i);
                 canvas.width = w;
-                canvas.height = h;
+                canvas.height = h;            
                 // Draw image to canvas
                 var context = canvas.getContext('2d');
                 context.drawImage(img[i], 0, 0, w, h);
                 // Get data URL encoding of image
-                var uri = canvas.toDataURL("image/png");
+                var uri = canvas.toDataURL();
                 $(img[i]).attr("src", img[i].src);
                 img[i].width = w;
                 img[i].height = h;
@@ -48,16 +50,18 @@ if (typeof jQuery !== "undefined" && typeof saveAs !== "undefined") {
                     location: $(img[i]).attr("src"),
                     data: uri.substring(uri.indexOf(",") + 1)
                 };
+                // Remove canvas now that we no longer need it
+                canvas.parentNode.removeChild(canvas);
             }
 
             // Prepare bottom of mhtml file with image data
             var mhtmlBottom = "\n";
             for (var i = 0; i < images.length; i++) {
                 mhtmlBottom += "--NEXT.ITEM-BOUNDARY\n";
-                mhtmlBottom += "Content-Location: " + images[i].location + "\n";
-                mhtmlBottom += "Content-Type: " + images[i].type + "\n";
-                mhtmlBottom += "Content-Transfer-Encoding: " + images[i].encoding + "\n\n";
-                mhtmlBottom += images[i].data + "\n\n";
+                mhtmlBottom += "Content-Location: " + images[i].contentLocation + "\n";
+                mhtmlBottom += "Content-Type: " + images[i].contentType + "\n";
+                mhtmlBottom += "Content-Transfer-Encoding: " + images[i].contentEncoding + "\n\n";
+                mhtmlBottom += images[i].contentData + "\n\n";
             }
             mhtmlBottom += "--NEXT.ITEM-BOUNDARY--";
 
@@ -80,5 +84,5 @@ if (typeof jQuery !== "undefined" && typeof saveAs !== "undefined") {
     }
     if (typeof saveAs === "undefined") {
         console.error("jQuery Word Export: missing dependency (FileSaver.js)");
-    }
+    };
 }

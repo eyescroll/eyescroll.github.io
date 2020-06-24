@@ -26,9 +26,9 @@ repository: eyescroll/eyescroll.github.io
 # twitter_username: pageboy  #change to your own twitter account
 lang: en_gb
 timezone: GB
-  # Icons
-  # If you have any of these accounts add them in here
+
 rss: false  # Make sure you created a feed.xml with feed.xml layout
+excerpt_separator: <!--clip-->
 
 # Scripts / Features
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
