@@ -1299,3 +1299,9 @@ a.word {
 	height: 100%;
   padding: 0 !important;
 }
+
+/* hide the repeated title of the page */
+
+.excerpt h1, .post-content h1 {
+  display:none;
+}

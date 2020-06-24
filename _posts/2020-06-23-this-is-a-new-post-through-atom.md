@@ -10,4 +10,5 @@ tags:    # use [tag1,tag2]
 
 This has published false. What happens to it?
 
+<!--clip-->
 [![My book](/uploads/cover13.jpg)](/uploads/cover13.jpg)

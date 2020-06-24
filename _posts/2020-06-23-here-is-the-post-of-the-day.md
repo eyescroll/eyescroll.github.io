@@ -7,6 +7,7 @@ caption: Golly what beautiful colours
 ---
 tell me this works please.
 
+<!--clip-->
 ```css
 .video-box {
 	position: relative;
