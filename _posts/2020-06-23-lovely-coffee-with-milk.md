@@ -9,4 +9,4 @@ Lets see if this works.
 
 Ok now I will edit this with Atom.
 
-[![Athens](/uploads/thesius_house.jpg)](/uploads/thesius_house.jpg)
+![](/uploads/img_1493.jpg "Greek Goddess")
