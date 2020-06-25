@@ -49,7 +49,7 @@ newPostFileName: "{year}-{month}-{day}-{slug}{extension}"
 # frontMatterCustomFields:
 #   author: "Your Name Here"
 # Front matter date format, determines the {date} in frontMatter
-frontMatterDate: "{year}-{month}-{day} {hour}:{minute}"
+frontMatterDate: "{year}-{month}-{day}T{hour}:{minute}:{second}.391Z"
 # Front matter template
 frontMatter: """
 ---
@@ -60,6 +60,10 @@ header_feature_image:
 caption:
 tags:    # use [tag1,tag2]
 ---
+# Put the title of the post here again
+
+<!--above-here-is-displayed-on-home-page-->
+
 """
 
 # File extension of posts/drafts

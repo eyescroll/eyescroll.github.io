@@ -28,7 +28,7 @@ lang: en_gb
 timezone: GB
 
 rss: false  # Make sure you created a feed.xml with feed.xml layout
-excerpt_separator: <!--clip-->
+excerpt_separator: <!--above-here-is-displayed-on-home-page-->
 
 # Scripts / Features
 google_analytics: # Tracking ID, e.g. "UA-000000-01"

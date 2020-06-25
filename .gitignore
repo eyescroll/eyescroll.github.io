@@ -11,3 +11,8 @@ _site/*
 # Theme Gem files
 *.gem
 .gems
+
+# any pandoc outputs
+
+*.icml
+*.docx
