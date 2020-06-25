@@ -9,7 +9,7 @@ caption: Golly what beautiful colours
 
 tell me this works please.
 
-<!--clip-->
+<!--above-here-is-displayed-on-home-page-->
 
 ```css
 .video-box {

@@ -9,5 +9,5 @@ Lets see if this works.
 
 Ok now I will edit this with Atom.
 
-<!--clip-->
+<!--above-here-is-displayed-on-home-page-->
 ![](/uploads/img_1493.jpg "Greek Goddess")

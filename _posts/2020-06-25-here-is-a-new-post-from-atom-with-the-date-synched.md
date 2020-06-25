@@ -8,6 +8,6 @@ tags:    # use [tag1,tag2]
 ---
 # Post from Atom with proper date
 
-<!--clip-->
+<!--above-here-is-displayed-on-home-page-->
 
 This is a post with the date set as it is through the CMS

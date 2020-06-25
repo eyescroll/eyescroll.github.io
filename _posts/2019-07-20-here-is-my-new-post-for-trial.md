@@ -9,7 +9,7 @@ caption: "Cobbles"
 
 This is just a sample post that you should delete. This first paragraph will appear on the home page as a preview of the post. The rest below this paragraph will appear on the blog post page.
 
-<!--clip-->
+<!--above-here-is-displayed-on-home-page-->
 
 The `header_feature_image` is optional and you should enter the path to it in the metadata above.
 

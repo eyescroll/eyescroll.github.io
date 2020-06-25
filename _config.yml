@@ -25,7 +25,7 @@ url: "https://eyescroll.netlify.app"   #change this to yours
 repository: eyescroll/eyescroll.github.io
 # twitter_username: pageboy  #change to your own twitter account
 lang: en_gb
-timezone: GB
+timezone: UTC
 
 rss: false  # Make sure you created a feed.xml with feed.xml layout
 excerpt_separator: <!--above-here-is-displayed-on-home-page-->

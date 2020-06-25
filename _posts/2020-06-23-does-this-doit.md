@@ -10,5 +10,5 @@ tags:    # use [tag1,tag2]
 
 This post uses the correct date format I think. I can add a picture
 
-<!--clip-->
+<!--above-here-is-displayed-on-home-page-->
 [![Colours](/uploads/IMG_2791.jpg)](/uploads/IMG_2791.jpg)
