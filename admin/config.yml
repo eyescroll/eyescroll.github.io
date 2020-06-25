@@ -12,7 +12,7 @@ logo_url: https://eyescroll.netlify.app/uploads/face.jpg
 # Do NOT edit below this line
 
 media_folder: "uploads" # Media files will be stored in the repo under /uploads
-public_folder: "/uploads"
+public_folder: "../uploads"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
@@ -24,7 +24,7 @@ collections:
     description: "These are your existing blog posts. Click -New Post- to create a new post."
     create: true # Allow users to create new documents in this collection
     media_folder: "/uploads"
-    public_folder: "/uploads"
+    public_folder: "../uploads"
     summary: "{{title}} - {{day}}/{{month}}/{{year}}"
     preview_path: "{{year}}/{{month}}/{{day}}/{{title}}"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -35,7 +35,7 @@ collections:
       - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
       - {label: "Caption", name: "caption", widget: "string", required: false}
       - {label: "Comments", name: "comments", widget: "boolean", required: false, hint: "If you setup your Disqus account then turn this on"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", hint: "You will need to put in here the code `<!--above-here-is-displayed-on-home-page-->` and the heading for the post and the first paragraph above this, so that it shows on your home page"}
 
 
   - name: "pages"
