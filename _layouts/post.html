@@ -9,7 +9,7 @@ layout: default
         {% include post_info.html post=page %}
   </header>
   <section class="post-content">
-      {{ content }}
+      {{ content | replace: "../uploads", "/uploads" }}
   </section>
   <!-- Social media shares -->
   {% include share_buttons.html %}
