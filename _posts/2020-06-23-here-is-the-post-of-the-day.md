@@ -5,11 +5,8 @@ date: 2020-06-23
 header_feature_image: /uploads/IMG_2791.jpg
 caption: Golly what beautiful colours
 ---
-# Here is the Post of the Day
 
 tell me this works please.
-
-<!--above-here-is-displayed-on-home-page-->
 
 [![me](../uploads/meagainsthedge.jpg)](../uploads/meagainsthedge.jpg)
 

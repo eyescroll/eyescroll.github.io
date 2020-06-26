@@ -10,5 +10,4 @@ tags:    # use [tag1,tag2]
 
 This has published false. What happens to it?
 
-<!--above-here-is-displayed-on-home-page-->
-[![My book](./uploads/cover13.jpg)](./uploads/cover13.jpg)
+[![My book](../uploads/cover13.jpg)](../uploads/cover13.jpg)

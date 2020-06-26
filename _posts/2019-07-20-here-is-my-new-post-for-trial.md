@@ -5,11 +5,9 @@ date: 2020-06-24 17:50
 header_feature_image: /uploads/867FAB82-62D7-4C53-8EDC-5114095CF8AA.jpeg
 caption: Cobbles
 ---
-# This is the title of the page
 
 This is just a sample post that you should delete. This first paragraph will appear on the home page as a preview of the post. The rest below this paragraph will appear on the blog post page.
 
-<!--above-here-is-displayed-on-home-page-->
 
 The `header_feature_image` is optional and you should enter the path to it in the metadata above.
 

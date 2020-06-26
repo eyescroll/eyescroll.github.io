@@ -6,8 +6,5 @@ header_feature_image:
 caption:
 tags:    # use [tag1,tag2]
 ---
-# Post from Atom with proper date
-
-<!--above-here-is-displayed-on-home-page-->
 
 This is a post with the date set as it is through the CMS
