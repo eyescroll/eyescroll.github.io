@@ -32,6 +32,6 @@ $(".post-content img").each(function() {
 <script>
   if (localStorage.getItem("netlify-cms-user") != '') {
   var theuser = JSON.parse(localStorage.getItem("netlify-cms-user")).name;
-  $("#user").html("<a class='editlink' title='With permission through GitHub' href='/admin/#/collections/posts/entries{{ page.path | remove: ".md" | remove: "_posts" }}'>" + theuser + " can edit this Post" + "</a>");
+  $("#user").html("<a class='editlink' title='With permission through GitHub' href='/admin/#/collections/posts/entries{{ page.path | remove: ".md" | remove: "_posts" }}'>" + "edit this page" + "</a>");
 }
 </script>

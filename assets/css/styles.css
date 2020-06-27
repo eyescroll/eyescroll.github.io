@@ -383,6 +383,10 @@ header {
     .feature-image header {
         background-size: 120% auto
     }
+
+    .editlink {
+      display:none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -616,7 +620,11 @@ max-height: 100%;
 }
 
 .site-footer .footer-icons ul li {
-    display: inline
+    display: inline;
+}
+
+.site-footer .footer-icons ul li a {
+    color: #87758e;
 }
 
 .site-footer .footer-icons ul a:hover {
@@ -1255,13 +1263,18 @@ code.highlighter-rouge {
 
 
 .editlink {
-  font-size: .8em;
+  display:inline;
+  font-size: .6em;
   color: white;
   background: black;
-  padding:3px;
-  margin-left: 30px;
-  position: relative;
-  bottom: 3px;
+  padding:4px;
+  width:auto;
+  border-radius: 4px;
+  /* position: relative; */
+}
+
+.feature-image .editlink {
+  text-align: center;
 }
 
  a.editlink:hover, a.word:hover {

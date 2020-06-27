@@ -2,10 +2,9 @@
 layout: default
 ---
 <article id="page-content" {% if page.header_feature_image %}class="feature-image"{% endif %}>
-
-  <header id="main">
-      <p><span id="user"></span></p>
+  <header id="main"><span id="user"></span>
       <h1 id="{{ page.title | escape | url_encode }}" class="title">{{ page.title }}</h1>
+
         {% include post_info.html post=page %}
   </header>
   <section class="post-content">
