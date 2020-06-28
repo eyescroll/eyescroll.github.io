@@ -107,6 +107,11 @@ collections:
                 widget: "boolean"
                 required: false
                 hint: "You can choose to show the posts on the home page in a grid rather than just lined up vertically"
+              - label: "Image Enlargement"
+                name: "upzoom"
+                widget: "boolean"
+                default: true
+                hint: "Images in the content will enlarge when clicked. You can turn this off if you prefer."  
           - label: "Your Social Media Accounts"
             name: "social"
             widget: "object"

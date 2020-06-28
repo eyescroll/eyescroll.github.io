@@ -27,8 +27,9 @@ $(".post-content img").each(function() {
 });
 </script>
 
-<!-- add a link to the image itself -->
 
+{%- if site.data.settings.general.upzoom -%}
+<!-- add a link to the image itself -->
 <script>
 $(document).ready(function() {
   $('.post-content img').each(function ()
@@ -38,9 +39,10 @@ $(document).ready(function() {
   });
 });
 </script>
+{%- endif -%}
+
 
 <!-- now follows the javascript to show that a post can be edited -->
-
 <script>
   if (localStorage.getItem("netlify-cms-user") != '') {
   var theuser = JSON.parse(localStorage.getItem("netlify-cms-user")).name;
