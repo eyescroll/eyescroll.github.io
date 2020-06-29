@@ -1,13 +1,14 @@
 ---
 layout: page
 title: About
-subtitle: All about me and my life #optional sub title to the post
 permalink: /about/
-header_feature_image:  /uploads/log.jpg #replace this for yours
-tags:
+date: 2020-06-29T15:36:12.231Z
+header_feature_image: /uploads/log.jpg
 published: true
-description:
-show: false
+subtitle: All about me and my life
+tags: null
+description: null
+show: true
 ---
 
 This page is where you write something about yourself. You can add pictures so that people know where you come from or where you live.
