@@ -111,7 +111,7 @@ collections:
                 name: "upzoom"
                 widget: "boolean"
                 default: true
-                hint: "Images in the content will enlarge when clicked. You can turn this off if you prefer."  
+                hint: "Images in the content will enlarge when clicked. You can turn this off if you prefer."
           - label: "Your Social Media Accounts"
             name: "social"
             widget: "object"
@@ -185,3 +185,23 @@ collections:
                 name: "facebook"
                 widget: "boolean"
                 required: false
+
+  - name: "menu"
+    publish_mode: normal
+    label: "Menu Bar Items"
+    description: "You can add items to the menu"
+    create: false
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: "Add menu items to appear on the right of the menu bar."
+        name: "menu"
+        file: "_data/menu.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+            - {label: "Name", name: "name", widget: string}
+            - {label: "Link", name: "siteurl", widget: string}

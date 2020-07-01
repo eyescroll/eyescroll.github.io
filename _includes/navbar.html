@@ -21,11 +21,11 @@
 
     <!-- Menu -->
     <ul class="hide">
-			{%- for sites in site.data.othersites -%}
-			{%- unless sites.name == null or sites.siteurl ==  null -%}
+			{%- for item in site.data.menu.items -%}
+			{%- unless item.name == null or item.siteurl ==  null -%}
 			  <li>
-			    <a class="clear" aria-label="{{ sites.name }}" title="{{ sites.name }}" href="{{ sites.siteurl }}">
-			      {{ sites.name }}
+			    <a class="clear" aria-label="{{ item.name }}" title="{{ item.name }}" href="{{ item.siteurl }}">
+			      {{ item.name }}
 			    </a>
 			  </li>
 				{%- endunless -%}
