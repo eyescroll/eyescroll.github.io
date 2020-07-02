@@ -185,19 +185,26 @@ collections:
                 name: "facebook"
                 widget: "boolean"
                 required: false
+
+  - name: "menu"
+    publish_mode: normal
+    label: "Menu Bar Items"
+    description: "You can add items to the menu"
+    create: false
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: "Add menu items to appear on the right of the menu bar."
+        name: "menu"
+        file: "_data/menu.yml"
+        fields:
           - label: "Menu Items"
-            name: "menuitems"
+            name: "items"
             widget: "list"
             hint: "Put the name of the link and the URL. This can be an external site but if so, it must be the FULL link with http or https."
             collapsed: false
             fields:
-              - label: "Name"
-                name: "name"
-                widget: string
-              - label: "Link"
-                name: "siteurl"
-                widget: string
-              - label: "Open in tab"
-                name: "tab"
-                widget: boolean
-                default: false
+            - {label: "Name", name: "name", widget: string}
+            - {label: "Link", name: "siteurl", widget: string}
+            - {label: "Open in tab", name: "tab", widget: boolean, default: false}

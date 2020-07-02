@@ -21,7 +21,7 @@
 
     <!-- Menu -->
     <ul class="hide">
-			{%- for item in site.data.menu.items -%}
+			{%- for item in site.data.settings.menuitems -%}
 			{%- unless item.name == null or item.siteurl ==  null -%}
 			  <li>
 			    <a class="clear" aria-label="{{ item.name }}" title="{{ item.name }}" href="{{ item.siteurl }}" {%- if item.tab -%} target="_blank" {%- endif -%}>
