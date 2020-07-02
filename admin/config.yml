@@ -122,6 +122,7 @@ collections:
                 name: "twitter"
                 widget: "string"
                 hint: "Do not include the @ sign"
+                required: false
               - label: "Your Instagram"
                 name: "instagram"
                 widget: "string"
