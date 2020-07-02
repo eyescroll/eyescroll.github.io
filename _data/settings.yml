@@ -33,3 +33,7 @@ menuitems:
     - name: Editor
       siteurl: /admin/
       tab: false
+items:
+  - name: test
+    siteurl: google.com
+    tab: true
