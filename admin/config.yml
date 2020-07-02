@@ -186,18 +186,18 @@ collections:
                 widget: "boolean"
                 required: false
           - label: "Menu Items"
-            name: "menuitems"
+            name: "items"
             widget: "list"
             hint: "Put the name of the link and the URL. This can be an external site but if so, it must be the FULL link with http or https."
             collapsed: false
             fields:
-              - label: "Name"
+              - label: "Site Name"
                 name: "name"
-                widget: string
+                widget: "string"
               - label: "Link"
                 name: "siteurl"
-                widget: string
+                widget: "string"
               - label: "Open in tab"
                 name: "tab"
-                widget: boolean
-                default: false
+                widget: "boolean"
+                required: false

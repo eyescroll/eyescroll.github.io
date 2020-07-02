@@ -29,6 +29,7 @@ share_buttons:
   email_address: true
   instagram: true
 menuitems:
-  name: Editor
-  siteurl: /admin/
-  tab: false
+  items:
+    - name: Editor
+      siteurl: /admin/
+      tab: false
