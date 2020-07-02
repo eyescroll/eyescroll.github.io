@@ -188,7 +188,7 @@ collections:
           - label: "Menu Items"
             name: "items"
             widget: "list"
-            hint: "Put the name of the link and the URL. This can be an external site but if so, it must be the FULL link with http or https."
+            hint: "Add items here for the menubar at the top right of your site."
             collapsed: false
             fields:
               - label: "Site Name"
@@ -196,8 +196,10 @@ collections:
                 widget: "string"
               - label: "Link"
                 name: "siteurl"
+                hint: "If this is an external link paste in the complete URL"
                 widget: "string"
               - label: "Open in tab"
                 name: "tab"
                 widget: "boolean"
+                hint: "You can optionally select to have this link open in a seperate windows or tab."
                 required: false
