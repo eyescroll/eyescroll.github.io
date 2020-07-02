@@ -1,11 +1,10 @@
-data:
-  - name: "general"
-    header_feature_image: /uploads/books4screen.jpg
-    logo: /uploads/face.jpg
-    upzoom: false
-    gridlayout: false
-    footer_text: Copyright 2020 Chris Jennings
-    favicon: /uploads/favicon.ico
-    title: Chris Jennings
-    description: A website with a blog
-    header_text: Brookes Dream Blog
+general:
+  header_feature_image: /uploads/books4screen.jpg
+  logo: /uploads/face.jpg
+  upzoom: false
+  gridlayout: false
+  footer_text: Copyright 2020 Chris Jennings
+  favicon: /uploads/favicon.ico
+  title: Chris Jennings
+  description: A website with a blog
+  header_text: Brookes Dream Blog
