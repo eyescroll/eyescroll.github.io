@@ -59,7 +59,6 @@ collections:
       - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
-
   - label: "Settings"
     name: "data"
     editor:
@@ -72,7 +71,7 @@ collections:
         create: false
         delete: false
         fields:
-          - label: "General Settings"
+          - label: "Title of the Site"
             name: "title"
             widget: "string"
             required: true
