@@ -1,7 +1,0 @@
-items:
-  - name: Editor
-    siteurl: /admin/
-    tab: false
-  - name: test
-    siteurl: google.com
-    tab: true
