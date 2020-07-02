@@ -61,28 +61,29 @@ collections:
 
   - label: "Settings"
     name: "data"
+    description: "These are the settings for the site. This includes the name and description of your blog and your social media accounts."
     editor:
       preview: false
     files:
-      - label: "Settings for your Web site"
+      - label: "General Critical Settings for your Web site"
         name: "general"
         file: "_data/settings.yml"
-        description: "These are the settings for the site. This includes the name and description of your blog and your social media accounts."
-        create: false
-        delete: false
         fields:
           - label: "Title of the Site"
             name: "title"
             widget: "string"
             required: true
+            hint: "A short title of the site to be displayed top left"
           - label: "Description"
             name: "description"
             widget: "string"
+            hint: "This is used in the metadata of the site. Good for search engines."
             required: false
           - label: "Text in the Banner"
             name: "header_text"
             widget: "string"
             required: false
+            hint: "This will appear above the manin image on the home page."
           - label: "Text in the Footer"
             name: "footer_text"
             widget: "string"
@@ -105,17 +106,29 @@ collections:
             default: true
             hint: "Images in the content will enlarge when clicked. You can turn this off if you prefer."
 
-  - label: "Your Social Media Accounts"
-    name: "socialdata"
-    editor:
-      preview: false
-    files:
-      - label:
+          - label: "Add Menu Items for the top bar"
+            name: "items"
+            widget: "list"
+            hint: "Add items here for the menubar at the top right of your site."
+            collapsed: false
+            fields:
+              - label: "Site Name"
+                name: "name"
+                widget: "string"
+              - label: "Link"
+                name: "siteurl"
+                hint: "If this is an external link paste in the complete URL"
+                widget: "string"
+              - label: "Open in tab"
+                name: "tab"
+                widget: "boolean"
+                hint: "You can optionally select to have this link open in a seperate windows or tab."
+                required: false
+
+
+      - label: "Add your Social Media accounts here"
         name: "social"
         file: "_data/social.yml"
-        description: "These are the settings for the site. This includes the name and description of your blog and your social media accounts."
-        create: false
-        delete: false
         fields:
           - label: "Your Twitter Account"
             name: "twitter"
@@ -166,4 +179,22 @@ collections:
             name: "email_address"
             widget: "string"
             pattern: ['@', 'Must be a valid email address']
+            required: false
+
+      - label: "Turn on some share buttons"
+        name: "share_buttons"
+        file: "_data/share_buttons.yml"
+        hint: "Switch on these Social media buttons so people can share your posts"
+        fields:
+          - label: "Share on Twitter"
+            name: "twitter"
+            widget: "boolean"
+            required: false
+          - label: "Share to Instagram"
+            name: "instagram"
+            widget: "boolean"
+            required: false
+          - label: "Share to Facebook"
+            name: "facebook"
+            widget: "boolean"
             required: false

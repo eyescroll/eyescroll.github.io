@@ -7,3 +7,10 @@ description: A website with a blog
 header_text: Brookes Dream Blog
 upzoom: false
 gridlayout: false
+items:
+  - name: Editor
+    siteurl: /admin/
+    tab: false
+  - name: test
+    siteurl: google.com
+    tab: true
