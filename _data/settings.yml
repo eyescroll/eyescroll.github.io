@@ -1,16 +1,13 @@
-title: Chris Jennings
-header_feature_image: /uploads/books4screen.jpg
-logo: /uploads/face.jpg
-footer_text: Copyright 2020 Chris Jennings
-favicon: /uploads/favicon.ico
 description: A website with a blog
 header_text: Brookes Dream Blog
-upzoom: false
+footer_text: Copyright 2020 Chris Jennings
+header_feature_image: /uploads/books4screen.jpg
 gridlayout: false
 items:
   - name: Editor
     siteurl: /admin/
     tab: false
-  - name: test
-    siteurl: google.com
-    tab: true
+logo: /uploads/face.jpg
+upzoom: false
+favicon: /uploads/favicon.ico
+title: Chris Jennings
