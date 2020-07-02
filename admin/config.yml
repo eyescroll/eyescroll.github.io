@@ -104,3 +104,66 @@ collections:
             widget: "boolean"
             default: true
             hint: "Images in the content will enlarge when clicked. You can turn this off if you prefer."
+
+  - label: "Your Social Media Accounts"
+    name: "socialdata"
+    editor:
+      preview: false
+    files:
+      - label:
+        name: "social"
+        file: "_data/social.yml"
+        description: "These are the settings for the site. This includes the name and description of your blog and your social media accounts."
+        create: false
+        delete: false
+        fields:
+          - label: "Your Twitter Account"
+            name: "twitter"
+            widget: "string"
+            hint: "Do not include the @ sign"
+            required: false
+          - label: "Your Instagram"
+            name: "instagram"
+            widget: "string"
+            required: false
+          - label: "Your Facebook page"
+            name: "facebook"
+            widget: "string"
+            required: false
+          - label: "You Disqus account for people to comment"
+            name: "disqus_shortname"
+            widget: "string"
+            required: false
+            hint: "Once you have a disqus account you can put the short name in here."
+          - label: "Do you have a Flickr account?"
+            name: "flickr"
+            widget: "string"
+            required: false
+          - label: "How about Soundcloud"
+            name: "soundcloud"
+            widget: "string"
+            required: false
+          - label: "Here you can add your Pinterest account"
+            name: "pinterest"
+            widget: "string"
+            required: false
+          - label: "Do you have a YouTube channel?"
+            name: "youtube"
+            widget: "string"
+            required: false
+            hint: "Put your YouTube channel here"
+          - label: "Tumblr"
+            name: "tumblr"
+            widget: "string"
+            required: false
+            hint: "If you have Tumblr put it here"
+          - label: "LinkedIn"
+            name: "linkedin"
+            widget: "string"
+            required: false
+            hint: "If you have a LinkedIn network put it here"
+          - label: "You can add your own Email Adress here"
+            name: "email_address"
+            widget: "string"
+            pattern: ['@', 'Must be a valid email address']
+            required: false
