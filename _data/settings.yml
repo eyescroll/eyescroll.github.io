@@ -8,3 +8,7 @@ general:
   title: Chris Jennings
   description: A website with a blog
   header_text: Brookes Dream Blog
+title: Test title
+description: Jolly good
+footer_text: hell
+upzoom: true
