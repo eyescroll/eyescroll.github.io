@@ -199,9 +199,12 @@ collections:
         name: "menu"
         file: "_data/menu.yml"
         fields:
-          - label: "Navigation Items"
+          - label: "Menu Items"
             name: "items"
             widget: "list"
+            hint: "Put the name of the link and the URL. This can be an external site but if so, it must be the FULL link with http or https."
+            collapsed: false
             fields:
             - {label: "Name", name: "name", widget: string}
             - {label: "Link", name: "siteurl", widget: string}
+            - {label: "Open in tab", name: "tab", widget: boolean, default: false}
