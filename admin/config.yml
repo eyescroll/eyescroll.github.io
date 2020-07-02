@@ -32,7 +32,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
+      - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false, hint: "This image will appear at the top of your post"}
       - {label: "Caption", name: "caption", widget: "string", required: false}
       - {label: "Comments", name: "comments", widget: "boolean", required: false, hint: "If you setup your Disqus account then turn this on"}
       - {label: "Body", name: "body", widget: "markdown", hint: "You can type striaght into this field and use the toolbar to select styles. You can also use markdown directly when you switch this off. In markdown mode, you can also add HTML."}
@@ -100,7 +100,7 @@ collections:
                 name: "header_feature_image"
                 widget: "image"
                 allow_multiple: false
-                hint: "This image will show on the home page. It needs to be a minimum of 900 pixels wide."
+                hint: "This image will show on the home page. It needs to be a minimum of 1000 pixels wide."
                 required: false
               - label: "Grid Layout"
                 name: "gridlayout"
@@ -118,36 +118,36 @@ collections:
             hint: "Put any social media accounts in here so that you can show the icons on your web site"
             collapsed: true
             fields:
-              - label: "Twitter"
+              - label: "Your Twitter Account"
                 name: "twitter"
                 widget: "string"
                 hint: "Do not include the @ sign"
-              - label: "Instagram"
+              - label: "Your Instagram"
                 name: "instagram"
                 widget: "string"
                 required: false
-              - label: "Facebook"
+              - label: "Your Facebook page"
                 name: "facebook"
                 widget: "string"
                 required: false
-              - label: "Disqus"
+              - label: "You Disqus account for people to comment"
                 name: "disqus_shortname"
                 widget: "string"
                 required: false
                 hint: "Once you have a disqus account you can put the short name in here."
-              - label: "Flickr"
+              - label: "Do you have a Flickr account?"
                 name: "flickr"
                 widget: "string"
                 required: false
-              - label: "Soundcloud"
+              - label: "How about Soundcloud"
                 name: "soundcloud"
                 widget: "string"
                 required: false
-              - label: "Pinterest"
+              - label: "Here you can add your Pinterest account"
                 name: "pinterest"
                 widget: "string"
                 required: false
-              - label: "YouTube"
+              - label: "Do you have a YouTube channel?"
                 name: "youtube"
                 widget: "string"
                 required: false
@@ -162,7 +162,7 @@ collections:
                 widget: "string"
                 required: false
                 hint: "If you have a LinkedIn network put it here"
-              - label: "Email Adress"
+              - label: "You can add your own Email Adress here"
                 name: "email_address"
                 widget: "string"
                 pattern: ['@', 'Must be a valid email address']
@@ -173,19 +173,19 @@ collections:
             hint: "Switch on these Social media buttons so people can share your posts"
             collapsed: true
             fields:
-              - label: "Twitter"
+              - label: "Share on Twitter"
                 name: "twitter"
                 widget: "boolean"
                 required: false
-              - label: "Instagram"
+              - label: "Share to Instagram"
                 name: "instagram"
                 widget: "boolean"
                 required: false
-              - label: "Facebook"
+              - label: "Share to Facebook"
                 name: "facebook"
                 widget: "boolean"
                 required: false
-          - label: "Menu Items"
+          - label: "Add Menu Items for the top bar"
             name: "items"
             widget: "list"
             hint: "Add items here for the menubar at the top right of your site."
