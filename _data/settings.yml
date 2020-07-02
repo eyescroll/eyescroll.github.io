@@ -28,11 +28,10 @@ share_buttons:
   linkedin: null
   email_address: true
   instagram: true
-menuitems:
-  items:
-    - name: Editor
-      siteurl: /admin/
-      tab: false
+items:
+  - name: Editor
+    siteurl: /admin/
+    tab: false
 items:
   - name: test
     siteurl: google.com

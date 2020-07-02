@@ -4,7 +4,7 @@ backend:
   branch: master # Branch to update (master by default)
   site_domain: eyescroll.netlify.app
 
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 show_preview_links: true
 display_url: https://eyescroll.netlify.app
 logo_url: https://eyescroll.netlify.app/uploads/face.jpg
