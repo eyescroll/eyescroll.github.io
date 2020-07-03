@@ -2,7 +2,7 @@ backend:
   name: github
   repo: eyescroll/eyescroll.github.io # Path to your GitHub repository
   branch: master # Branch to update (master by default)
-  site_domain: eyescroll.netlify.app
+  site_domain: eyescroll.netlify.app #Your site on netlify
 
 publish_mode: editorial_workflow
 show_preview_links: true
@@ -196,5 +196,13 @@ collections:
             required: false
           - label: "Share to Facebook"
             name: "facebook"
+            widget: "boolean"
+            required: false
+          - label: "Share to Tumblr"
+            name: "tumblr"
+            widget: "boolean"
+            required: false
+          - label: "Share to Pinterest"
+            name: "pinterest"
             widget: "boolean"
             required: false
