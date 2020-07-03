@@ -3,6 +3,7 @@ backend:
   repo: eyescroll/eyescroll.github.io # Path to your GitHub repository
   branch: master # Branch to update (master by default)
   site_domain: eyescroll.netlify.app #Your site on netlify
+  use_graphql: true
 
 publish_mode: editorial_workflow
 show_preview_links: true
