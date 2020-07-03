@@ -62,6 +62,7 @@ collections:
 
   - label: "Settings"
     name: "data"
+    show_preview_links: false
     description: "These are the settings for the site. This includes the name and description of your blog and your social media accounts."
     editor:
       preview: false
@@ -112,6 +113,7 @@ collections:
             widget: "list"
             hint: "Add items here for the menubar at the top right of your site."
             collapsed: false
+            show_preview_links: false
             fields:
               - label: "Site Name"
                 name: "name"
@@ -129,6 +131,7 @@ collections:
 
       - label: "Add your Social Media accounts here"
         name: "social"
+        show_preview_links: false
         file: "_data/social.yml"
         fields:
           - label: "Your Twitter Account"
@@ -184,6 +187,7 @@ collections:
 
       - label: "Turn on some share buttons"
         name: "share_buttons"
+        show_preview_links: false
         file: "_data/share_buttons.yml"
         hint: "Switch on these Social media buttons so people can share your posts"
         fields:
