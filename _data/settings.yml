@@ -6,7 +6,7 @@ gridlayout: false
 items:
   - name: Editor
     siteurl: /admin/
-    tab: false
+    tab: true
 logo: /uploads/face.jpg
 upzoom: false
 favicon: /uploads/favicon.ico
