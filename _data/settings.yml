@@ -8,6 +8,6 @@ items:
     siteurl: /admin/
     tab: true
 logo: /uploads/face.jpg
-upzoom: false
+upzoom: true
 favicon: /uploads/favicon.ico
 title: Chris Jennings
