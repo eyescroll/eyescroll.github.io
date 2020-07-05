@@ -184,6 +184,11 @@ collections:
             widget: "string"
             pattern: ['@', 'Must be a valid email address']
             required: false
+          - label: "GitHub"
+            name: "GitHub"
+            widget: "string"
+            required: false
+            hint: "Put your Github repo in here and then people can see your code. You just need the username and repo name like this  `username/myrepo`"
 
       - label: "Turn on some share buttons"
         name: "share_buttons"
