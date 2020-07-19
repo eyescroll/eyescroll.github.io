@@ -1,23 +1,23 @@
 # collections
-collections:
-  posts:
-    title: Posts
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    header_feature_image:
-    caption:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-    header_feature_image:
-    caption:
+# collections:
+#   posts:
+#     title: Posts
+#     output: true
+# defaults:
+# - scope:
+#     path: ''
+#     type: posts
+#   values:
+#     layout: post
+#     header_feature_image:
+#     caption:
+# - scope:
+#     path: ''
+#     type: pages
+#   values:
+#     layout: page
+#     header_feature_image:
+#     caption:
 
 # SITE CONFIGURATION
 baseurl: ''  #leave this alone
@@ -52,7 +52,7 @@ str_javascript_required_disqus: "Please enable JavaScript to view comments."
 post_navigation: true
 
 # PAGINATION
-paginate: 10
+paginate: 3
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
