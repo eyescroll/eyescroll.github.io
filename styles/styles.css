@@ -998,6 +998,7 @@ ul.share-buttons .sr-only {
 
 .post-content {
   /* border: 1px solid red; */
+
 }
 
 .post-content img {
@@ -1328,4 +1329,8 @@ a.word {
 
 .excerpt h1, .post-content h1 {
   display:none;
+}
+
+.home .post-content {
+  padding: 4px 10%;
 }

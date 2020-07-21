@@ -2,7 +2,7 @@
 layout: post
 title: Here is my new post and the date is there
 date: 2020-06-23T12:34:12.391Z
-header_feature_image: ../uploads/log.jpg
+header_feature_image: /uploads/log.jpg
 caption: null
 tags: null
 ---
