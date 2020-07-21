@@ -7,6 +7,8 @@ repository: eyescroll/eyescroll.github.io
 lang: en_gb
 timezone: UTC
 
+
+
 rss: false  # Make sure you created a feed.xml with feed.xml layout
 # excerpt_separator: <!--above-here-is-displayed-on-home-page-->
 
@@ -32,7 +34,7 @@ str_javascript_required_disqus: "Please enable JavaScript to view comments."
 post_navigation: true
 
 # PAGINATION
-paginate: 3
+paginate: 5
 paginate_path: "blog/page:num"
 
 # collections
@@ -60,3 +62,8 @@ permalink: pretty
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 exclude: [".jekyll-cache", "Gemfile", "README.md"]
 github: [metadata]
+# if you want the blog to be below the home page through a link  - comment out the following line and then add the hash to the next line. In other words you want to include the blog/index and exclude the index on the home page.
+exclude: ["blog/index.html"]
+# exclude: ["index.html"]
+
+# Note you will then want to add the blog to the menubar through the CMS

@@ -51,6 +51,8 @@
   min-width: 180px;
 }
 
+
+
 @media (max-width: 768px) {
   .home .posts {
         -ms-flex-flow: column wrap;
