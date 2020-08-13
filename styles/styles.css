@@ -1334,3 +1334,20 @@ a.word {
 .home .post-content {
   padding: 4px 10%;
 }
+
+
+#main {
+  height:28vh;
+  display:flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main h1 {
+}
+
+#user {
+  /* display:block; */
+}
